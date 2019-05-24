@@ -27,7 +27,7 @@ object AggExample {
 
     val students1 = spark.sparkContext.parallelize(students)
     val studentsDF=students1.toDF()
-    studentsDF.printSchema()
+    //studentsDF.printSchema()
     //studentsDF.explain(true)
     //studentsDF.show(true)
     studentsDF.show()

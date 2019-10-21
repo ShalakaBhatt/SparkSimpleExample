@@ -36,6 +36,7 @@ object AggExample {
     val std1=spark.sql("""select * from student""")
     println("********Result for student table*******")
     std1.show()
+    //std1.repartition($"age")
     val std2=std1.agg(max("age").as("Max_Age"))
     std2.show()
 

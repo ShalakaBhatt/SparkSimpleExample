@@ -1,2 +1,2 @@
-Simple spark code for test.
-This is readme file.
+Simple spark code for testing.
+

@@ -1,6 +1,6 @@
 package com.sparkscala.example
 
-object TestClass {
+object TestClass extends App{
 
   println("Added this!!!")
 

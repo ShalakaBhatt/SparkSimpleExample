@@ -40,7 +40,7 @@ object AggExample {
     val std2=std1.agg(max("age").as("Max_Age"))
     std2.show()
 
-    std1.write.parquet("/Users/shalakabhatt/std2")
+    std1.write.parquet("/Users/shalakabhatt/std3")
   }
 
 }
